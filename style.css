@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+head{
+  background: red;
+}
+body{
+  background-color: rgb(236, 236, 250);
+  font-family: 'robot', sans-serif;
+}
+/* .manus{
+  backdrop-filter: blur(5px);
+} */
+.header{
+  width: 100%;
+  height: 50px;
+  z-index: 10;
+  position: fixed;
+  border-bottom: 1px solid #47464653;
+  box-shadow: 2px 2px 1px #13131321;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(235, 235, 235, 0.241);
+  user-select: none;
+}
+.header .logo{
+  margin: 0 25px;
+  font-size: 1.4rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+.header ul {
+  list-style: none;
+  margin-right: 60px;
+}
+.header ul li{
+  display: inline-block;
+  font-size: 1rem;
+  margin-left: 22px;
+}
+.header ul li a{
+  text-decoration: none;
+  color: #131313;
+  text-transform: uppercase;
+}
+.header ul li a:hover{
+  color: blue;
+}
+.bar,.xmark{
+  visibility: hidden;
+  color: transparent;
+  position: absolute;
+  right: 0px;
+}
+.content{
+  width: 100%;
+  height: auto;
+  border: 3px solid red;
+  margin-top: 50px;
+  position: absolute;
+}
+.top-page{
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  gap: 20px;
+}
+.box{
+  width: 40%;
+  height: auto;
+  /* border: 1px solid ; */
+}
+.box h1{
+  font-size: 2.5rem;
+}
+.box span{
+  color: rgb(255, 0, 85);
+}
+.box p{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #2b2a2a;
+}
+.box button{
+  padding: 5px 25px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid rgba(0, 0, 255, 0);
+  border-radius: 3px;
+  cursor: pointer;
+  background: rgb(18, 18, 187);
+  color: #fff;
+  box-shadow: 5px 8px 15px rgb(107, 134, 242);
+}
+.box button:hover{
+  background-color: #000000;
+}
+.box img{
+  width: 380px;
+}
+.our-services{
+  width: 100%;
+  height: 350px;
+  border: 1px solid;
+  margin-top: 35px;
+
+}
+.our-services h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.our-services span{
+  color: rgb(255, 0, 85);
+}
+.our-services h1::before{
+  content: "";
+  width: 185px;
+  height: 2.3px;
+  background: blue;
+  position: absolute;
+  margin-top: 33px;
+}
